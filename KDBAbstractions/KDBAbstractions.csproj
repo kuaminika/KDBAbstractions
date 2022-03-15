@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Kuaminika</Company>
+    <Authors>Kuaminika</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kuaminika/KDBAbstractionsjj</PackageProjectUrl>
+    <Copyright>2022</Copyright>
+    <Description>This library will contain interfaces and classes used to abstract Mysql/SQL Dbs.
+</Description>
+    <RepositoryUrl>https://github.com/kuaminika/KDBAbstractions.git</RepositoryUrl>
+    <PackageTags>mysql</PackageTags>
+    <PackageReleaseNotes>this is the initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
