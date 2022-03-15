@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/kuaminika/KDBAbstractionsjj</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/kuaminika/KDBAbstractions</PackageProjectUrl>
     <Copyright>2022</Copyright>
     <Description>This library will contain interfaces and classes used to abstract Mysql/SQL Dbs.
 </Description>
