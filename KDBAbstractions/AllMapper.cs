@@ -5,7 +5,9 @@ using System.Text;
 
 namespace KDBAbstractions
 {
-    //this is a class that can be used to map anything
+    /// <summary>
+    /// This is a class that can be used to map anything
+    /// </summary>
     public class AllMapper : IKModelMapper
     {
         Action<IKDataReader> action;
