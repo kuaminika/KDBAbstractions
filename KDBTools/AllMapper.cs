@@ -1,9 +1,9 @@
-﻿using KDBAbstractions.Repository.interfaces;
+﻿using KDBTools.Repository.interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace KDBAbstractions
+namespace KDBTools
 {
     /// <summary>
     /// This is a class that can be used to map anything

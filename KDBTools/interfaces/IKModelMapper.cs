@@ -1,6 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 
-namespace KDBAbstractions.Repository.interfaces
+namespace KDBTools.Repository.interfaces
 {
     public interface IKModelMapper
     {

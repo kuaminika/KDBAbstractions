@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KDBAbstractions.Repository
+namespace KDBTools.Repository
 {
     public enum KSP_ParamDirection {  NoDirection,In,Out }
     public enum KSP_ParamType { Int,Bool,Str,Decimal}

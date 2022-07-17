@@ -14,13 +14,14 @@
     <RepositoryUrl>https://github.com/kuaminika/KDBAbstractions.git</RepositoryUrl>
     <PackageTags>mysql</PackageTags>
     <PackageReleaseNotes>this is the initial release</PackageReleaseNotes>
-    <Version>1.0.3</Version>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
-    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.6.0</AssemblyVersion>
+    <FileVersion>1.0.6.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="MySql.Data" Version="8.0.28" />
   </ItemGroup>
 

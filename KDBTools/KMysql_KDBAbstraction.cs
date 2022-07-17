@@ -1,10 +1,10 @@
-﻿using KDBAbstractions.Repository.interfaces;
+﻿using KDBTools.Repository.interfaces;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace KDBAbstractions.Repository
+namespace KDBTools.Repository
 {
     public class KMysql_KDBAbstraction : AKDBAbstraction
     {

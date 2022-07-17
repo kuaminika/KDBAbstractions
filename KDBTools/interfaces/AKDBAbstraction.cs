@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace KDBAbstractions.Repository.interfaces
+namespace KDBTools.Repository.interfaces
 {
     // TODO : confirm if AKDBAbstraction should be inside a separate project
     public abstract class AKDBAbstraction

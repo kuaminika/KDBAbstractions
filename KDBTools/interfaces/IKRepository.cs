@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace KDBAbstractions.Repository.interfaces
+namespace KDBTools.Repository.interfaces
 {
     public interface IKRepository<T>
     {

@@ -1,7 +1,7 @@
-﻿using KDBAbstractions.Repository.interfaces;
+﻿using KDBTools.Repository.interfaces;
 using MySql.Data.MySqlClient;
 
-namespace KDBAbstractions.Repository
+namespace KDBTools.Repository
 {
     internal class KMySqlDataReader : IKDataReader
     {
