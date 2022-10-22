@@ -14,4 +14,21 @@ namespace KDBTools.Repository.interfaces
 
     }
 
+
+    public static class DataGatewayExtensions{
+
+
+        public static Dapper.DynamicParameters FindDynamicParams<T>(this IDataGateway dataGateway,T q)
+        {
+            var map = KSqlMapper.Create;
+            Dapper.DynamicParameters reslt = new Dapper.DynamicParameters();
+            foreach (var p in q.GetType().GetProperties())
+            {
+                if (!map.Has(p.PropertyType)) continue;
+                reslt.Add(p.Name, p.GetValue(q), map.Get(p.PropertyType));
+            }
+
+            return reslt;
+        }
+    }
 }

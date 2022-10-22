@@ -1,13 +1,14 @@
 ﻿using Dapper;
-using KDBTools.Repository;
 using KDBTools.Repository.interfaces;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace KDBTools.Repository
 {
+    /// <summary>
+    /// This class uses Dapper to abstract Mysql Databases
+    /// </summary>
     public class DataGateway : IDataGateway
     {
         private string connStr;
@@ -18,6 +19,7 @@ namespace KDBTools.Repository
             this.connStr = connString;
             this.dbAbstraction = new KMysql_KDBAbstraction(connString);
         }
+
 
 
         public KWriteResult ExecuteInsert(string query)
